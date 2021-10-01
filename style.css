@@ -130,6 +130,7 @@ li {
   background-color: #00a4e5;
 }
 .service-bottom {
+  width: 100%;
   margin-top: 78px;
   display: flex;
   justify-content: space-between; /*Не работает. Разобраться почему */
@@ -144,7 +145,7 @@ li {
 }
 .first-service-bottom,
 .second-service-bottom {
-  margin-right: 27px;
+  margin-right: 30px;
 }
 .bold-service {
   font-weight: bold;
@@ -222,6 +223,8 @@ input[type="submit"] {
   display: flex;
   letter-spacing: 0.85px;
   font-size: 11px;
+  justify-content: space-between;
+  width: 100%;
 }
 .footer-container li {
   font-size: 11px;
@@ -231,7 +234,6 @@ input[type="submit"] {
 }
 .footer-company {
   width: 250px;
-  margin-right: 70px;
 }
 .footer-company img {
   margin-top: 19px;
@@ -243,7 +245,6 @@ input[type="submit"] {
 }
 .footer-links {
   width: 262px;
-  margin-right: 55px;
 }
 .footer-links a {
   color: #ffffff;
@@ -266,7 +267,6 @@ input[type="submit"] {
 }
 .footer-contact {
   width: 141px;
-  margin-right: 40px;
 }
 .footer-contact p {
   font-size: 11px;
@@ -282,7 +282,10 @@ input[type="submit"] {
   color: #00a4e5;
 }
 .social-network {
+  width: 90px;
   margin-top: 72px;
+  display: flex;
+  justify-content: space-around;
 }
 .social {
   display: inline-block;
@@ -293,11 +296,9 @@ input[type="submit"] {
 }
 .social-fb {
   background-position: 0 0;
-  margin-right: 37px;
 }
 .social-twitter {
   background-position: -37px 0;
-  margin-right: 37px;
 }
 .social-google {
   background-position: -74px 0;
