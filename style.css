@@ -92,8 +92,12 @@ li {
 .coloroid {
   color: #16ace8;
 }
+.images {
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+}
 .images img {
-  margin-left: 20px;
   transition: 0.5s ease;
 }
 .images img:hover {
@@ -141,12 +145,12 @@ li {
 .third-service-bottom {
   padding: 38px 22px;
   border: solid 1px #e6e6e6;
-  width: 295px;
+  width: 250px; /* С этой шириной вместо 295px работает как надо. Почему в браузере отображается ширина каждого блока 296px? */
 }
-.first-service-bottom,
+/* .first-service-bottom,
 .second-service-bottom {
   margin-right: 30px;
-}
+} */
 .bold-service {
   font-weight: bold;
   font-size: 16px;
